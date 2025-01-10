@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Convergence University</title>
+    <link rel="icon" href="Images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <section class="header">
+      <nav>
+        <a href="home.html"><img src="Images/astrast_1.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="https://panel.astrast.host/">PANEL</a></li>
+            <li><a href="https://astrast.net/">WEB HOST</a></li>
+            <li><a href="https://discord.gg/A6nFK9NwyQ">DISCORD</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Astrast Host : Free & Finest Host</h1>
+        <p>
+            Your one-stop solution for premium hosting services, tailored to fit every need.
+        </p>
+        <a href="https://discord.gg/A6nFK9NwyQ"" class="hero-btn">Join Now</a>
+      </div>
+    </section>
+    <!-- -------course--------- -->
+    <section class="course">
+      <div class="container-t">
+        <h1>WHY US?</h1>
+        <p>All of our plans obviously come packed with features, but here's some of our prime focuses and features that are included with our services.</p>
+      
+        <div class="section-t">
+          <div class="text-t">
+            <h2>DIRECT CONNECTION</h2>
+            <p>We connect with our users, treating you like friends, not customers.</p>
+          </div>
+          <div class="text-t">
+            <h2>SECURITY</h2>
+            <p>We prioritize your data security with top-notch measures.</p>
+          </div>
+          <div class="text-t">
+            <h2>FREE & AFFORDABLE</h2>
+            <p>Quality services that fit your budget, free or affordable!</p>
+          </div>
+      </div>
+    </section>
+    <!-- ---------campus------------- -->
+    <section class="course">
+      <h1>How it works</h1>
+      <p>
+        We offer a very simple account registration and server setup.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="Images/image_1.png" alt="" />
+          <div class="layer">
+            <h3>Step: 1</h3>
+            <h4>Go to the tickets channel on our Discord Server.</h4>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="Images/image_2.png" alt=""/>
+          <div class="layer">
+            <h3>Step: 2</h3>
+            <h4>Click on the "Register" button.</h4>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="Images/image_3.png" alt="" />
+          <div class="layer">
+            <h3>Step: 3</h3>
+            <h4>A private channel will be made for you and our staff will reach very soon.</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="course">
+      <p>© 2025 Astrast Host</p>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
