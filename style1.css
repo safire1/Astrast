@@ -1,0 +1,30 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.nav-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-links a {
+    margin: 0 15px;
+    font-weight: bold;
+}
